@@ -3,42 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Business Name] - Gym & Fitness</title>
+    <title>[Business Name] - Fitness Center</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-neutral-900 text-white font-sans">
-    <header class="bg-black border-b border-neutral-800 p-6">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <h1 class="text-3xl font-black italic tracking-tighter text-yellow-500">[Business Name]</h1>
-            <p class="text-lg font-bold mt-2 md:mt-0">Call: [Phone Number]</p>
-        </div>
+<body class="bg-zinc-900 text-white font-sans overflow-x-hidden">
+    <!-- Brutalist Asymmetrical Layout -->
+    <header class="p-6 flex justify-between items-center border-b-4 border-lime-400">
+        <h1 class="text-3xl font-black uppercase tracking-tighter text-lime-400">[Business Name]</h1>
+        <p class="font-black text-xl">[Phone Number]</p>
     </header>
 
-    <section class="max-w-6xl mx-auto px-6 py-24 text-center">
-        <h2 class="text-5xl font-black uppercase mb-6">Transform Your Life</h2>
-        <p class="text-xl text-neutral-400 mb-10">The premier fitness destination in [City].</p>
-        <button class="bg-yellow-500 text-black px-8 py-4 text-xl font-bold uppercase hover:bg-yellow-400 transition">Join Now</button>
-    </section>
-
-    <section class="bg-neutral-800 py-16">
-        <div class="max-w-6xl mx-auto px-6">
-            <h3 class="text-3xl font-black text-center text-white mb-10 uppercase">Member Success</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="p-6 bg-neutral-900 border border-neutral-700">
-                    <p class="text-neutral-300 italic mb-4">"[Review 1 Text]"</p>
-                    <p class="font-bold text-yellow-500 uppercase">- [Reviewer 1 Name]</p>
-                </div>
-                <div class="p-6 bg-neutral-900 border border-neutral-700">
-                    <p class="text-neutral-300 italic mb-4">"[Review 2 Text]"</p>
-                    <p class="font-bold text-yellow-500 uppercase">- [Reviewer 2 Name]</p>
-                </div>
-            </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-4 p-4 md:p-8">
+        <!-- Giant Typographic Block -->
+        <div class="col-span-1 md:col-span-8 bg-black p-10 border border-zinc-800 flex flex-col justify-center">
+            <h2 class="text-6xl md:text-8xl font-black uppercase leading-none mb-6">NO <br> EXCUSES.</h2>
+            <p class="text-2xl text-zinc-400 uppercase">The hardest gym in [City].</p>
         </div>
-    </section>
+        
+        <!-- Action Block -->
+        <div class="col-span-1 md:col-span-4 bg-lime-400 text-black p-10 flex flex-col justify-center items-start border-4 border-black shadow-[8px_8px_0px_rgba(255,255,255,1)]">
+            <h3 class="text-3xl font-black uppercase mb-4">Start Today</h3>
+            <button class="bg-black text-lime-400 px-6 py-3 font-black uppercase text-xl hover:bg-zinc-800 w-full">Join Now</button>
+        </div>
 
-    <footer class="bg-black text-neutral-500 text-center py-8">
-        <p>&copy; 2026 [Business Name].</p>
-        <p>[Address]</p>
-    </footer>
+        <!-- Review Block -->
+        <div class="col-span-1 md:col-span-12 bg-zinc-800 p-8 border-l-8 border-lime-400 mt-4">
+            <p class="text-2xl font-bold italic mb-2">"[Review 1 Text]"</p>
+            <p class="text-lime-400 font-black uppercase">- [Reviewer 1 Name]</p>
+        </div>
+    </div>
 </body>
 </html>
