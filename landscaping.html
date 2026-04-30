@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Business Name] - Landscaping & Lawn Care</title>
+    <title>[Business Name] - Landscaping</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-green-50 text-gray-800 font-sans">
-    <header class="bg-green-700 text-white p-6 shadow-md">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <h1 class="text-3xl font-bold">[Business Name]</h1>
-            <p class="text-lg font-semibold mt-2 md:mt-0">Contact: [Phone Number]</p>
-        </div>
-    </header>
-
-    <section class="max-w-6xl mx-auto px-6 py-20 text-center">
-        <h2 class="text-4xl font-extrabold text-green-900 mb-6">Beautiful Lawns, Expert Care</h2>
-        <p class="text-lg text-green-800 mb-10">Creating and maintaining stunning outdoor spaces in [City].</p>
-        <button class="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-lg hover:bg-green-800 transition">Request Service</button>
-    </section>
-
-    <section class="bg-white py-16">
-        <div class="max-w-6xl mx-auto px-6">
-            <h3 class="text-2xl font-bold text-center text-green-800 mb-10">What Locals Say</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="p-6 bg-green-100 rounded shadow text-center">
-                    <p class="text-gray-700 mb-4">"[Review 1 Text]"</p>
-                    <p class="font-bold text-green-900">- [Reviewer 1 Name]</p>
-                </div>
-                <div class="p-6 bg-green-100 rounded shadow text-center">
-                    <p class="text-gray-700 mb-4">"[Review 2 Text]"</p>
-                    <p class="font-bold text-green-900">- [Reviewer 2 Name]</p>
-                </div>
+<body class="bg-emerald-900 font-sans text-white">
+    <!-- Card Overlays and Earth Tones -->
+    <div class="max-w-6xl mx-auto p-6 pt-12">
+        <div class="bg-emerald-800 rounded-2xl p-8 md:p-16 relative overflow-hidden shadow-2xl border border-emerald-700">
+            <!-- Decorative circle -->
+            <div class="absolute -top-20 -right-20 w-64 h-64 bg-emerald-600 rounded-full opacity-50 blur-3xl"></div>
+            
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 relative z-10">[Business Name]</h1>
+            <p class="text-emerald-200 text-xl mb-10 relative z-10">Transforming outdoor spaces in [City]. Lawn care, design, and maintenance.</p>
+            
+            <div class="inline-block bg-white text-emerald-900 font-bold px-8 py-4 rounded-lg relative z-10 hover:bg-emerald-50 transition">
+                Book a Consultation: [Phone Number]
             </div>
         </div>
-    </section>
 
-    <footer class="bg-green-900 text-green-200 text-center py-8">
-        <p>&copy; 2026 [Business Name]. Landscape Experts.</p>
-        <p>[Address]</p>
-    </footer>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 relative z-20 -top-8 px-4">
+            <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg border-t-4 border-emerald-500">
+                <h3 class="font-bold text-emerald-800 mb-2">Our Services</h3>
+                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                    <li>Lawn Maintenance</li>
+                    <li>Hardscaping</li>
+                    <li>Garden Design</li>
+                </ul>
+            </div>
+            <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg border-t-4 border-emerald-500">
+                <h3 class="font-bold text-emerald-800 mb-2">Review</h3>
+                <p class="italic text-gray-600 mb-4">"[Review 1 Text]"</p>
+                <p class="font-bold text-emerald-900">- [Reviewer 1 Name]</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
