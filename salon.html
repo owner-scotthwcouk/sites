@@ -3,42 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Business Name] - Hair & Beauty Salon</title>
+    <title>[Business Name] - Salon</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-50 text-gray-800 font-sans">
-    <header class="bg-white p-6 shadow-sm border-b border-pink-100">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <h1 class="text-3xl font-serif text-pink-600 tracking-wide">[Business Name]</h1>
-            <p class="text-lg font-medium text-gray-600 mt-2 md:mt-0">Book: [Phone Number]</p>
-        </div>
-    </header>
+<body class="bg-rose-50 font-sans">
+    <!-- Floating Header & Soft Curves -->
+    <div class="p-6">
+        <header class="max-w-4xl mx-auto bg-white/80 backdrop-blur-md rounded-full shadow-sm py-4 px-8 flex justify-between items-center sticky top-4 z-50">
+            <h1 class="text-2xl font-serif text-rose-800">[Business Name]</h1>
+            <a href="tel:[Phone Number]" class="bg-rose-400 text-white px-6 py-2 rounded-full hover:bg-rose-500 transition">Book: [Phone Number]</a>
+        </header>
 
-    <section class="max-w-6xl mx-auto px-6 py-20 text-center">
-        <h2 class="text-4xl font-serif text-gray-900 mb-6">Elevate Your Style</h2>
-        <p class="text-lg text-gray-500 mb-10">Premium hair and beauty services tailored for you in [City].</p>
-        <button class="bg-pink-500 text-white px-8 py-3 rounded-full text-lg shadow-md hover:bg-pink-600 transition">Book an Appointment</button>
-    </section>
-
-    <section class="bg-white py-16">
-        <div class="max-w-6xl mx-auto px-6">
-            <h3 class="text-2xl font-serif text-center text-pink-600 mb-10">Client Love</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="p-8 bg-pink-50 rounded-2xl text-center shadow-sm">
-                    <p class="text-gray-600 mb-4">"[Review 1 Text]"</p>
-                    <p class="font-bold text-gray-900">- [Reviewer 1 Name]</p>
-                </div>
-                <div class="p-8 bg-pink-50 rounded-2xl text-center shadow-sm">
-                    <p class="text-gray-600 mb-4">"[Review 2 Text]"</p>
-                    <p class="font-bold text-gray-900">- [Reviewer 2 Name]</p>
-                </div>
+        <main class="max-w-4xl mx-auto mt-16 text-center">
+            <h2 class="text-5xl md:text-6xl font-serif text-gray-800 mb-6">Discover Your <br><span class="text-rose-500 italic">Signature Look.</span></h2>
+            <p class="text-gray-600 text-lg mb-12">Luxury hair and beauty services located in [City].</p>
+            
+            <div class="bg-white rounded-[3rem] p-12 shadow-xl border border-rose-100">
+                <h3 class="text-xl font-serif text-rose-800 mb-6">What Our Clients Say</h3>
+                <p class="text-gray-600 text-lg italic leading-relaxed mb-4">"[Review 1 Text]"</p>
+                <p class="font-bold text-gray-800">- [Reviewer 1 Name]</p>
             </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-100 text-gray-500 text-center py-8 text-sm">
-        <p>&copy; 2026 [Business Name]. Beauty & Care.</p>
-        <p>[Address]</p>
-    </footer>
+        </main>
+    </div>
 </body>
 </html>
